@@ -26,6 +26,6 @@ export async function sharpen(img_path: string, sigma?: number, flat?: number, j
     }
 }
 
-sharpen('./imgs/bolivia2.jpg', 2, 2.0, 3.0)
-resize('./imgs/bolivia2.jpg', 200, 100);
-resize('./imgs/bolivia3.jpg', 200)
+// sharpen('./imgs/bolivia2.jpg', 2, 2.0, 3.0)
+// resize('./imgs/bolivia2.jpg', 200, 100);
+// resize('./imgs/bolivia3.jpg', 200)
