@@ -1,6 +1,6 @@
 import Jimp from "jimp/es";
 
-async function improve_img_and_watermark(url: string){
+async function resize_and_watermark(url: string){
     try {
         const font = await Jimp.loadFont(Jimp.FONT_SANS_16_WHITE);
         const image = await Jimp.read(url);
@@ -15,4 +15,4 @@ async function improve_img_and_watermark(url: string){
     }
 }
 
-improve_img_and_watermark('./imgs/bg1.jpg');
+resize_and_watermark('./imgs/bg1.jpg');
